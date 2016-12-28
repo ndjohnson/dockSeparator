@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  dockSeparator
+//  dockSeparator2
 //
 //  Created by Nick Johnson on 12/28/16.
 //  Copyright © 2016 Nick Johnson. All rights reserved.
@@ -18,5 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         NSApplication.shared().terminate(self)
         // Insert code here to initialize your application
     }
+    
+
 }
 

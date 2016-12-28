@@ -9,10 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>dockSeparator2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>dockSeparator3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C3ED56341E14455A004D2C05</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3ED564A1E144F52004D2C05</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3ED565B1E145012004D2C05</key>
 		<dict>
 			<key>primary</key>
 			<true/>

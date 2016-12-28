@@ -10,6 +10,14 @@
 		C3ED56391E14455B004D2C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED56381E14455B004D2C05 /* AppDelegate.swift */; };
 		C3ED563B1E14455B004D2C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3ED563A1E14455B004D2C05 /* Assets.xcassets */; };
 		C3ED563E1E14455B004D2C05 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3ED563C1E14455B004D2C05 /* MainMenu.xib */; };
+		C3ED564E1E144F52004D2C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED564D1E144F52004D2C05 /* AppDelegate.swift */; };
+		C3ED56501E144F52004D2C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3ED564F1E144F52004D2C05 /* Assets.xcassets */; };
+		C3ED56531E144F52004D2C05 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3ED56511E144F52004D2C05 /* MainMenu.xib */; };
+		C3ED565F1E145012004D2C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED565E1E145012004D2C05 /* AppDelegate.swift */; };
+		C3ED56611E145012004D2C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3ED56601E145012004D2C05 /* Assets.xcassets */; };
+		C3ED56641E145012004D2C05 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3ED56621E145012004D2C05 /* MainMenu.xib */; };
+		C3ED566B1E1456EE004D2C05 /* dockSeparator.app in Resources */ = {isa = PBXBuildFile; fileRef = C3ED56351E14455B004D2C05 /* dockSeparator.app */; };
+		C3ED566C1E1456F3004D2C05 /* dockSeparator.app in Resources */ = {isa = PBXBuildFile; fileRef = C3ED56351E14455B004D2C05 /* dockSeparator.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,10 +26,34 @@
 		C3ED563A1E14455B004D2C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3ED563D1E14455B004D2C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C3ED563F1E14455B004D2C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3ED564B1E144F52004D2C05 /* dockSeparator2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dockSeparator2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ED564D1E144F52004D2C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3ED564F1E144F52004D2C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3ED56521E144F52004D2C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C3ED56541E144F52004D2C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3ED565C1E145012004D2C05 /* dockSeparator3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dockSeparator3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ED565E1E145012004D2C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3ED56601E145012004D2C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3ED56631E145012004D2C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C3ED56651E145012004D2C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C3ED56321E14455A004D2C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ED56481E144F52004D2C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ED56591E145012004D2C05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				C3ED56371E14455B004D2C05 /* dockSeparator */,
+				C3ED564C1E144F52004D2C05 /* dockSeparator2 */,
+				C3ED565D1E145012004D2C05 /* dockSeparator3 */,
 				C3ED56361E14455B004D2C05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				C3ED56351E14455B004D2C05 /* dockSeparator.app */,
+				C3ED564B1E144F52004D2C05 /* dockSeparator2.app */,
+				C3ED565C1E145012004D2C05 /* dockSeparator3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +92,28 @@
 				C3ED563F1E14455B004D2C05 /* Info.plist */,
 			);
 			path = dockSeparator;
+			sourceTree = "<group>";
+		};
+		C3ED564C1E144F52004D2C05 /* dockSeparator2 */ = {
+			isa = PBXGroup;
+			children = (
+				C3ED564D1E144F52004D2C05 /* AppDelegate.swift */,
+				C3ED564F1E144F52004D2C05 /* Assets.xcassets */,
+				C3ED56511E144F52004D2C05 /* MainMenu.xib */,
+				C3ED56541E144F52004D2C05 /* Info.plist */,
+			);
+			path = dockSeparator2;
+			sourceTree = "<group>";
+		};
+		C3ED565D1E145012004D2C05 /* dockSeparator3 */ = {
+			isa = PBXGroup;
+			children = (
+				C3ED565E1E145012004D2C05 /* AppDelegate.swift */,
+				C3ED56601E145012004D2C05 /* Assets.xcassets */,
+				C3ED56621E145012004D2C05 /* MainMenu.xib */,
+				C3ED56651E145012004D2C05 /* Info.plist */,
+			);
+			path = dockSeparator3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +136,40 @@
 			productReference = C3ED56351E14455B004D2C05 /* dockSeparator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C3ED564A1E144F52004D2C05 /* dockSeparator2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ED56551E144F52004D2C05 /* Build configuration list for PBXNativeTarget "dockSeparator2" */;
+			buildPhases = (
+				C3ED56471E144F52004D2C05 /* Sources */,
+				C3ED56481E144F52004D2C05 /* Frameworks */,
+				C3ED56491E144F52004D2C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dockSeparator2;
+			productName = dockSeparator2;
+			productReference = C3ED564B1E144F52004D2C05 /* dockSeparator2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3ED565B1E145012004D2C05 /* dockSeparator3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ED56661E145012004D2C05 /* Build configuration list for PBXNativeTarget "dockSeparator3" */;
+			buildPhases = (
+				C3ED56581E145012004D2C05 /* Sources */,
+				C3ED56591E145012004D2C05 /* Frameworks */,
+				C3ED565A1E145012004D2C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dockSeparator3;
+			productName = dockSeparator3;
+			productReference = C3ED565C1E145012004D2C05 /* dockSeparator3.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -89,6 +181,14 @@
 				ORGANIZATIONNAME = "Nick Johnson";
 				TargetAttributes = {
 					C3ED56341E14455A004D2C05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C3ED564A1E144F52004D2C05 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C3ED565B1E145012004D2C05 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -108,6 +208,8 @@
 			projectRoot = "";
 			targets = (
 				C3ED56341E14455A004D2C05 /* dockSeparator */,
+				C3ED564A1E144F52004D2C05 /* dockSeparator2 */,
+				C3ED565B1E145012004D2C05 /* dockSeparator3 */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +224,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C3ED56491E144F52004D2C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ED56501E144F52004D2C05 /* Assets.xcassets in Resources */,
+				C3ED566B1E1456EE004D2C05 /* dockSeparator.app in Resources */,
+				C3ED56531E144F52004D2C05 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ED565A1E145012004D2C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ED56611E145012004D2C05 /* Assets.xcassets in Resources */,
+				C3ED566C1E1456F3004D2C05 /* dockSeparator.app in Resources */,
+				C3ED56641E145012004D2C05 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -133,6 +255,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C3ED56471E144F52004D2C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ED564E1E144F52004D2C05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ED56581E145012004D2C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ED565F1E145012004D2C05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -140,6 +278,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				C3ED563D1E14455B004D2C05 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C3ED56511E144F52004D2C05 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ED56521E144F52004D2C05 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C3ED56621E145012004D2C05 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ED56631E145012004D2C05 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -263,6 +417,58 @@
 			};
 			name = Release;
 		};
+		C3ED56561E144F52004D2C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dockSeparator2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NDJ.dockSeparator2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C3ED56571E144F52004D2C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dockSeparator2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NDJ.dockSeparator2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C3ED56671E145012004D2C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dockSeparator3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NDJ.dockSeparator3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C3ED56681E145012004D2C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dockSeparator3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NDJ.dockSeparator3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -280,6 +486,22 @@
 			buildConfigurations = (
 				C3ED56431E14455B004D2C05 /* Debug */,
 				C3ED56441E14455B004D2C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3ED56551E144F52004D2C05 /* Build configuration list for PBXNativeTarget "dockSeparator2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ED56561E144F52004D2C05 /* Debug */,
+				C3ED56571E144F52004D2C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3ED56661E145012004D2C05 /* Build configuration list for PBXNativeTarget "dockSeparator3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ED56671E145012004D2C05 /* Debug */,
+				C3ED56681E145012004D2C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
